@@ -1,8 +1,8 @@
 :: StoryData
 {
     "ifid": "F2277A49-95C9-4B14-AE66-62526089F861",
-    "format": "Harlowe",
-    "format-version": "3.1.0",
+    "format": "SugarCube",
+    "format-version": "2.30.0",
     "start": "Start"
 }
 
