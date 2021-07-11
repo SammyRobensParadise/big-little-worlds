@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo test",
-    "bp2": "echo 'building prototype 2 from twee file...' && ./tweego -o ./story-2/index.html ./story-2/index.twee"
+    "bp2": "echo 'building prototype 2 from twee file...' && ./tweego -o ./story-2/build/index.html ./story-2/src"
   },
   "repository": {
     "type": "git",
