@@ -1,0 +1,27 @@
+{
+  "name": "big-little-worlds",
+  "version": "1.0.0",
+  "description": "We follow two parallel yet connected stories of two engineering students on different planets unaware of one another's existence, one living under a surveillance state, the other in a liberal democracy and follow how the actions of one affects the other.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test",
+    "bp2": "echo 'building prototype 2 from twee file...' && ./tweego -o ./story-2/build/index.html ./story-2/src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SammyRobensParadise/big-little-worlds.git"
+  },
+  "keywords": [
+    "twine",
+    "tweego",
+    "syde",
+    "story",
+    "data"
+  ],
+  "author": "Sammy Robens-Paradise",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SammyRobensParadise/big-little-worlds/issues"
+  },
+  "homepage": "https://github.com/SammyRobensParadise/big-little-worlds#readme"
+}

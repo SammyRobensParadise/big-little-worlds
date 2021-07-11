@@ -1,0 +1,19 @@
+:: StoryData
+{
+    "ifid": "F2277A49-95C9-4B14-AE66-62526089F861",
+    "format": "SugarCube",
+    "format-version": "2.30.0",
+    "start": "Start"
+}
+
+:: StoryTitle
+Little Big Worlds
+
+:: Start
+Somewhere in the Universe...
+
+[[This is a link|Next Passage]]
+
+
+:: Next Passage
+The player just clicked a link to get here!
