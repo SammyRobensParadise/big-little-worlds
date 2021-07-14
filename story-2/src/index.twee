@@ -7,13 +7,14 @@
 }
 
 :: StoryTitle
-Little Big Worlds
+Little People Big Data
 
 :: Start
-Somewhere in the Universe...
+<div class="center">
+! Little People Big Data
+<div class="spacing-16"><b>[[Begin Story|Chapter 1]]</b></div>
+</div>
 
-[[This is a link|Next Passage]]
 
-
-:: Next Passage
+:: Chapter 1
 The player just clicked a link to get here!
