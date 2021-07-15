@@ -9,11 +9,25 @@
   }
   document.getElementsByTagName('head')[0].appendChild(script)
 })()
+
 function triggerSpaceNavigation() {
   const SPACE = 32
   $(window).keypress(function (e) {
     if (e.keyCode === SPACE) {
       var t = $('#space-target').find('a')
+      if (t.length) {
+        t[0].click()
+      }
+    }
+  })
+}
+
+function triggerShiftNavigation() {
+  const ENTER = 13
+  $(window).keypress(function (e) {
+    console.log(e.keyCode)
+    if (e.keyCode === ENTER) {
+      var t = $('#enter-target').find('a')
       if (t.length) {
         t[0].click()
       }
@@ -32,5 +46,6 @@ function handleReturnToBeginnings() {
 
 $(document).ready(function () {
   triggerSpaceNavigation()
+  triggerShiftNavigation()
   handleReturnToBeginnings()
 })
