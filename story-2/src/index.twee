@@ -7,13 +7,105 @@
 }
 
 :: StoryTitle
-Little Big Worlds
+Little People Big Data
 
 :: Start
-Somewhere in the Universe...
+<div class="center">
+! Little People Big Data
+<div class="spacing-16" id="space-target"><b>[[Begin Story|Chapter 1]]</b></div>
+<div class="container">
+<div class="spacing-16">You can press the <code>spacebar</code> at any point in the story to continue</div>
+</div>
+</div>
 
-[[This is a link|Next Passage]]
 
+:: Chapter 1
+<div class="container">
+<h3> 
+Chapter 1
+</h3>
+<p>
+“Michelle, I knew you could do it!” Balloons fill a room. I perked up and smiled. I don’t think I will ever get used to people using my name.
+ I’m standing around with a group of  people, some friends of mine, some not so much. 
+ They all seem to be proud of me for completing my degree. They did too of course.
+I am proud of them too, and excited to start the next chapter after school.
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 2]]</b></div>
+</div>
+</div>
 
-:: Next Passage
-The player just clicked a link to get here!
+:: Chapter 2
+<div class="container">
+<h3>
+Chapter 2: Stagnation
+</h3>
+<p>
+It’s nearly dawn when I wake up. I draw the curtain back and take a look. 
+Everything is still wet and drippy. It must have just stopped raining. 
+The sky looks ominous one minute, inviting the next. It all depends on the angle. 
+I bring my Fitbit close to my face. The digital number reads 05:26. Jul 14. 
+I think of my diary. July 14… good—so today is officially the two year mark since I’ve joined the company. 
+</p>
+<p>
+Not much has happened so far. I’ve been involved in some small projects here and there, but they were all mostly for the sake of getting on ramp to the company. Learning about the team, getting used to the office, those kinds of rite of passage stuff.  The early hype and excitement I had in my first day in the office has been slowly receding away. I had big dreams when I first set my foot here, but for the past year I don’t think I’ve made any immediate effect on anything tangible. Maybe this is what people call career stagnation?  I check my calendar and see a performance review booked in the afternoon with my manager. Perfect, I think. It might be a good time to tell my manager that I’m ready to take on more responsibility.
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 2-1]]</b></div>
+</div>
+</div>
+
+:: Chapter 2-1
+<div class="container">
+<p>
+I walked past the rows of open-concept white desks to the kitchen area.  Some desks are empty this early, some with people milling about, or with their ear buds in- perhaps listening to a podcast as they sift through their emails. There is a line for the coffee machine, one that is just slightly too long, so I go downstairs to use the coffee machine in the sales department.
+</p>
+<p>
+With a fresh cup of coffee in hand I run-walk  to one of the small meeting rooms where my supervisor is likely already waiting. She is usually early. We begin by making small talk. Typical. She asks me how my weekend was. “Fine”. I forgot to ask her about hers, and she dove straight into my performance review. I wasn’t worried and felt myself zoning out.
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 2-3]]</b></div>
+</div>
+</div>
+
+:: Chapter 2-3
+<div class="container">
+<p>
+Then, a word I was unfamiliar with. “The Phren project?”, I ask. 
+“Yes, the Phren project. I heard from Jason from the Core team several months ago. They’re trying to scale our existing data integration software, and it seemed like they were short of AI research talent.”
+“How come I never heard about this project?”
+</p>
+“Well, it’s under stealth mode for some reason, so not a lot of people are aware of what they’re exactly doing. All I know is that it has the potential to shift the digital infrastructure of the current economy. It’s one of those high-profile projects that board members put giant bets on. Looking at you for the past two years, I think this can be a great opportunity for you. They can use a brilliant, young talent like you instead of hiring someone else and go through the sacred onboarding process, and you’ll get to work on more intellectually challenging problems. If the project goes well, you might be as well on the career fastlane track. So, what do you think?”
+<p>
+I give it some thought. “All I was looking for was more responsibility, but if you insist a fresh environment change would work out better for me, I’d be more than grateful.” 
+“Then it’s settled,” Ashley says. “I’ll talk to Jason tomorrow and refer you.” 
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 3]]</b></div>
+</div>
+</div>
+
+:: Chapter 3
+<div class="container">
+<h3>
+Chapter 3: Decisions
+</h3>
+<p>
+“And you said your thesis was about mapping raw data?” Jason rubs his chin with his palm like he’s checking out how well he shaved. I was sitting across from him in another one of tiney meeting rooms. It was the following afternoon, and the sun was shining through the large windows spreading light across the dust particles floating aimlessly around the room. “Automation of data integration using machine learning. It was meant to replace laborious manual construction of semantic mappings.” I could tell he didn’t <i>really</i> care.
+</p>
+<p>
+“Interesting. I’d be down to talk about it more later if we have time. Anyways, our team would love to have you. Ashley told you’re one of the brightest researchers she has worked with. And you seem to have all the qualities and skill sets we were looking for.” 
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 3-1]]</b></div>
+</div>
+</div>
+
+:: Chapter 3-1
+<div class="container">
+<p>
+Both hands resting on top of the table, Jason looks over at me. “In case you haven’t been tipped on Phren in detail, we are building a general intelligent system that will be able to string together data points from a broad range of sources. Travel records, social media posts, friends, associates, music playlists, reading habits, purchases, you name it.”
+“All of that for what? Isn’t Google Ads and Facebook enough for the world to see more relevant ads?” I can’t help asking. 
+
+</p>
+</div>
