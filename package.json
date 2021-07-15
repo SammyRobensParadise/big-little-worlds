@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/SammyRobensParadise/big-little-worlds/issues"
   },
-  "homepage": "https://github.com/SammyRobensParadise/big-little-worlds#readme"
+  "homepage": "https://github.com/SammyRobensParadise/big-little-worlds#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
 }
