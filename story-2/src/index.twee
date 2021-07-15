@@ -16,11 +16,12 @@ Little People Big Data
 ! Little People Big Data
 <div class="spacing-16" id="space-target"><b>[[Begin Story|Chapter 1]]</b></div>
 <div class="container">
-<div class="spacing-16">You can press the <code>spacebar</code> at any point in the story to continue</div>
-</div>
 <audio class="audio-element" controls>
   <source src="../audio/test.mp3" type="audio/mpeg">
 </audio>
+<div class="spacing-16">You can press the <code>spacebar</code> at any point in the story to continue</div>
+</div>
+
 </div>
 
 
@@ -36,11 +37,12 @@ Chapter 1: Congratulations
 I am proud of them too, and excited to start the next chapter after school.
 </p>
 <div class="center">
-<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 2]]</b></div>
-</div>
 <audio class="audio-element" controls>
   <source src="../audio/test.mp3" type="audio/mpeg">
 </audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 2]]</b></div>
+</div>
+
 </div>
 
 :: Chapter 2
