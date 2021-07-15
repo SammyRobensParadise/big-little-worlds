@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/SammyRobensParadise/big-little-worlds#readme",
   "devDependencies": {
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "eslint": "^7.30.0"
   }
 }

@@ -1,3 +1,6 @@
+/* global $ */
+
+// eslint-disable-next-line no-extra-semi
 ;(function () {
   // Load the script
   var script = document.createElement('SCRIPT')
@@ -41,15 +44,6 @@ function triggerShiftNavigation() {
       if (t.length) {
         t[0].click()
       }
-    }
-  })
-}
-
-function handleReturnToBeginnings() {
-  const ESC = 27
-  $(window).keypress(function (e) {
-    if (e.keyCode === ESC) {
-      Engine.restart()
     }
   })
 }
@@ -114,5 +108,4 @@ $(document).ready(function () {
   mountAudioHandler()
   triggerSpaceNavigation()
   triggerShiftNavigation()
-  handleReturnToBeginnings()
 })
