@@ -22,7 +22,7 @@ Little People Big Data
 :: Chapter 1
 <div class="container">
 <h3> 
-Chapter 1
+Chapter 1: Congratulations
 </h3>
 <p>
 “Michelle, I knew you could do it!” Balloons fill a room. I perked up and smiled. I don’t think I will ever get used to people using my name.
@@ -71,8 +71,8 @@ With a fresh cup of coffee in hand I run-walk  to one of the small meeting rooms
 :: Chapter 2-3
 <div class="container">
 <p>
-Then, a word I was unfamiliar with. “The Phren project?”, I ask. 
-“Yes, the Phren project. I heard from Jason from the Core team several months ago. They’re trying to scale our existing data integration software, and it seemed like they were short of AI research talent.”
+Then, a word I was unfamiliar with. “The <i>Phren</i> project?”, I ask. 
+“Yes, the <i>Phren</i> project. I heard from Jason from the Core team several months ago. They’re trying to scale our existing data integration software, and it seemed like they were short of AI research talent.”
 “How come I never heard about this project?”
 </p>
 “Well, it’s under stealth mode for some reason, so not a lot of people are aware of what they’re exactly doing. All I know is that it has the potential to shift the digital infrastructure of the current economy. It’s one of those high-profile projects that board members put giant bets on. Looking at you for the past two years, I think this can be a great opportunity for you. They can use a brilliant, young talent like you instead of hiring someone else and go through the sacred onboarding process, and you’ll get to work on more intellectually challenging problems. If the project goes well, you might be as well on the career fastlane track. So, what do you think?”
@@ -88,7 +88,7 @@ I give it some thought. “All I was looking for was more responsibility, but if
 :: Chapter 3
 <div class="container">
 <h3>
-Chapter 3: Decisions
+Chapter 3: Phren
 </h3>
 <p>
 “And you said your thesis was about mapping raw data?” Jason rubs his chin with his palm like he’s checking out how well he shaved. I was sitting across from him in another one of tiney meeting rooms. It was the following afternoon, and the sun was shining through the large windows spreading light across the dust particles floating aimlessly around the room. “Automation of data integration using machine learning. It was meant to replace laborious manual construction of semantic mappings.” I could tell he didn’t <i>really</i> care.
@@ -104,8 +104,57 @@ Chapter 3: Decisions
 :: Chapter 3-1
 <div class="container">
 <p>
-Both hands resting on top of the table, Jason looks over at me. “In case you haven’t been tipped on Phren in detail, we are building a general intelligent system that will be able to string together data points from a broad range of sources. Travel records, social media posts, friends, associates, music playlists, reading habits, purchases, you name it.”
+Both hands resting on top of the table, Jason looks over at me. “In case you haven’t been tipped on <i>Phren</i> in detail, we are building a general intelligent system that will be able to string together data points from a broad range of sources. Travel records, social media posts, friends, associates, music playlists, reading habits, purchases, you name it.”
 “All of that for what? Isn’t Google Ads and Facebook enough for the world to see more relevant ads?” I can’t help asking. 
-
 </p>
+<p>Jason shows a sly look. “With the synthesized data stream, <i>Phren</i> will intelligently predict an individual’s behavior when variables are tweaked. The end goal is to be able to put an individual in a virtual simulation to predict their future behavior when a new variable is introduced.” 
+“Predict? Like the “Precrime” squad from the film Minority Report?” “Sort of. But it’s not the three gifted humans seeing into the predetermined future. The difference is we simulate certain environments and merely observe the results. Based on that observation, our clients  can better decide what kind of action they should take in real life.” 
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 3-2]]</b></div>
 </div>
+</div>
+
+:: Chapter 3-2
+<div class="container">
+<p> 
+I was confused. I had the feeling like Jason was seeing not real people, but only masses. “Is it even legal to pry all kinds of user data from their digital activity?” The confusion I was feeling must have worked its way into a frown because Jason responded in a  more terse tone.
+</p>
+<p>
+“Look, Michelle. If you wish to fully conceal your personal data, you must opt out of modern society. Credit cards, mobile phones, emails, in-app behaviors, all of these already reveal personal information to companies and permit tracking. Users are willingly giving away their information to use a service for free. All we’re doing is refining the crude oil and producing the new diesel to fuel the next era of digital economy. Think about the potential if organizations can simulate multiple possible futures using our system and weigh off pros and cons before actually getting into the market? Think about the money they can save from optimized actions, the trial and errors they can reduce? This is a bill—no, a trillion dollar industry.”  
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 3-3]]</b></div>
+</div>
+</div>
+
+:: Chapter 3-3
+<div class="container">
+<p> 
+Jason had a point. If <i>Phren</i> was not collecting data from users, but only deducing insights from available data, would there be any major ethical qualms? After all, privacy has now become a currency that people swap for convenience.</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 4]]</b></div>
+</div>
+</div>
+
+:: Chapter 4
+<div class="container">
+<h3>
+Chapter 4: Decisions
+</h3>
+<p>
+I knew I had to make a decision. Jason was waiting for me, and Ashely was counting on me. Ashley was a good person, and so was Jason. I trusted them and I believe that they believe they are doing something cool. Phren is not illegal and people have already given up their data, Phren was just putting together the pieces! Besides, this was the opportunity I was looking for. Something to finally end my career stagnation. I knew I had to do <i>something</i> since if you weren’t moving up it was basically like you were moving backwards.</p>
+<p>
+Still, I had this uncomfortable feeling that I would be part of something that I shouldn’t be doing. I thought about an old joke I had heard. The punchline was something about how collecting data was like going through someone’s trash, but on the internet.
+</p>
+<div class="row">
+<div class="col-sm-6"><div class="center" id="enter-target"><b>[[Refuse to Perform the Task (Enter Key)|Chapter 4-b]]</b></div></div>
+<div class="col-sm-6"><div class="center" id="space-target"><b>[[Accept Task (Spacebar)|Chapter 4-a]]</b></div></div>
+
+</div>
+</div>
+
+:: Chapter 4-a
+
+
+:: Chapter 4-b
