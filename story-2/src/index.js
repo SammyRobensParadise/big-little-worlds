@@ -25,9 +25,9 @@
 })()
 
 function triggerSpaceNavigation() {
-  const SPACE = 32
+  const SPACE = ' '
   $(window).keypress(function (e) {
-    if (e.keyCode === SPACE) {
+    if (e.key === SPACE) {
       var t = $('#space-target').find('a')
       if (t.length) {
         t[0].click()
@@ -37,9 +37,9 @@ function triggerSpaceNavigation() {
 }
 
 function triggerShiftNavigation() {
-  const ENTER = 13
+  const ENTER = 'Enter'
   $(window).keypress(function (e) {
-    if (e.keyCode === ENTER) {
+    if (e.key === ENTER) {
       var t = $('#enter-target').find('a')
       if (t.length) {
         t[0].click()
@@ -48,6 +48,9 @@ function triggerShiftNavigation() {
   })
 }
 
+/**
+ * mounts element
+ */
 function mountAudioHandler() {
   window.mute = false
   var muteCheckbox = $(document.createElement('input')).attr('type', 'checkbox')
@@ -69,11 +72,17 @@ function mountAudioHandler() {
   })
 }
 
+/**
+ *
+ * @param {$} target
+ */
 function handleCheckboxChange(target) {
   target.attr('checked', !target.attr('checked'))
   var checked = !!target.attr('checked')
   window.mute = checked
-  $.notify(window.mute ? '🔇' : '🔊', 'info')
+  if ($.notify) {
+    $.notify(window.mute ? '🔇' : '🔊', 'info')
+  }
 
   /***
    * If checked then we mute audio
@@ -81,6 +90,10 @@ function handleCheckboxChange(target) {
   hideAudioHandler(checked)
 }
 
+/**
+ *
+ * @param {boolean} state
+ */
 function hideAudioHandler(state) {
   var audio = $('audio')
   if (state) {
@@ -104,8 +117,20 @@ $('div#passages').bind('DOMSubtreeModified', function () {
   hideAudioHandler(window.mute)
 })
 
+function muteAudio() {
+  const M = 'm'
+  $(window).keypress(function (e) {
+    if (e.key === M) {
+      window.mute = true
+      hideAudioHandler(window.mute)
+      handleCheckboxChange($('input[name="mute-checkbox"'))
+    }
+  })
+}
+
 $(document).ready(function () {
   mountAudioHandler()
   triggerSpaceNavigation()
   triggerShiftNavigation()
+  muteAudio()
 })

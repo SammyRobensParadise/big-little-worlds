@@ -16,11 +16,12 @@ Little People Big Data
 ! Little People Big Data
 <div class="spacing-16" id="space-target"><b>[[Begin Story|Chapter 1]]</b></div>
 <div class="container">
-<div class="spacing-16">You can press the <code>spacebar</code> at any point in the story to continue</div>
-</div>
 <audio class="audio-element" controls>
-  <source src="../audio/test.mp3" type="audio/mpeg">
+  <source src="../audio/start_0.mp3" type="audio/mpeg">
 </audio>
+<div class="spacing-16">You can press the <code>spacebar</code> at any point in the story to continue, or <code>m</code> to mute audio</div>
+</div>
+
 </div>
 
 
@@ -36,11 +37,12 @@ Chapter 1: Congratulations
 I am proud of them too, and excited to start the next chapter after school.
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_1.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 2]]</b></div>
 </div>
-<audio class="audio-element" controls>
-  <source src="../audio/test.mp3" type="audio/mpeg">
-</audio>
+
 </div>
 
 :: Chapter 2
@@ -59,6 +61,9 @@ I think of my diary. July 14… good—so today is officially the two year mark 
 Not much has happened so far. I’ve been involved in some small projects here and there, but they were all mostly for the sake of getting on ramp to the company. Learning about the team, getting used to the office, those kinds of rite of passage stuff.  The early hype and excitement I had in my first day in the office has been slowly receding away. I had big dreams when I first set my foot here, but for the past year I don’t think I’ve made any immediate effect on anything tangible. Maybe this is what people call career stagnation?  I check my calendar and see a performance review booked in the afternoon with my manager. Perfect, I think. It might be a good time to tell my manager that I’m ready to take on more responsibility.
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_2.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 2-1]]</b></div>
 </div>
 </div>
@@ -72,6 +77,9 @@ I walked past the rows of open-concept white desks to the kitchen area.  Some de
 With a fresh cup of coffee in hand I run-walk  to one of the small meeting rooms where my supervisor is likely already waiting. She is usually early. We begin by making small talk. Typical. She asks me how my weekend was. “Fine”. I forgot to ask her about hers, and she dove straight into my performance review. I wasn’t worried and felt myself zoning out.
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_2_1.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 2-3]]</b></div>
 </div>
 </div>
@@ -89,6 +97,9 @@ I give it some thought. “All I was looking for was more responsibility, but if
 “Then it’s settled,” Ashley says. “I’ll talk to Jason tomorrow and refer you.” 
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_2_2.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 3]]</b></div>
 </div>
 </div>
@@ -105,6 +116,9 @@ Chapter 3: Phren
 “Interesting. I’d be down to talk about it more later if we have time. Anyways, our team would love to have you. Ashley told me you’re one of the brightest researchers she has worked with. And you seem to have all the qualities and skill sets we were looking for.” 
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_3_1.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 3-1]]</b></div>
 </div>
 </div>
@@ -119,6 +133,9 @@ Both hands resting on top of the table, Jason looks over at me. “In case you h
 “Predict? Like the “Precrime” squad from the film Minority Report?” “Sort of. But it’s not the three gifted humans seeing into the predetermined future. The difference is we simulate certain environments and merely observe the results. Based on that observation, our clients  can better decide what kind of action they should take in real life.” 
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_3_2.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 3-2]]</b></div>
 </div>
 </div>
@@ -132,6 +149,9 @@ I was confused. I had the feeling like Jason was seeing not real people, but onl
 “Look, Michelle. If you wish to fully conceal your personal data, you must opt out of modern society. Credit cards, mobile phones, emails, in-app behaviors, all of these already reveal personal information to companies and permit tracking. Users are willingly giving away their information to use a service for free. All we’re doing is refining the crude oil and producing the new diesel to fuel the next era of digital economy. Think about the potential if organizations can simulate multiple possible futures using our system and weigh off pros and cons before actually getting into the market? Think about the money they can save from optimized actions, the trial and errors they can reduce? This is a bill—no, a trillion dollar industry.”  
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_3_3.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 3-3]]</b></div>
 </div>
 </div>
@@ -141,6 +161,9 @@ I was confused. I had the feeling like Jason was seeing not real people, but onl
 <p> 
 Jason had a point. If <i>Phren</i> was not collecting data from users, but only deducing insights from available data, would there be any major ethical qualms? After all, privacy has now become a currency that people swap for convenience.</p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_3_4.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 4]]</b></div>
 </div>
 </div>
@@ -155,6 +178,11 @@ I knew I had to make a decision. Jason was waiting for me, and Ashely was counti
 <p>
 Still, I had this uncomfortable feeling that I would be part of something that I shouldn’t be doing. I thought about an old joke I had heard. The punchline was something about how collecting data was like going through someone’s trash... but on the internet.
 </p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_4_1.mp3" type="audio/mpeg">
+</audio>
+</div>
 <div class="row">
 <div class="col-sm-6"><div class="center" id="enter-target"><b>[[Refuse to Perform the Task (Enter Key)|Chapter 4-b]]</b></div></div>
 <div class="col-sm-6"><div class="center" id="space-target"><b>[[Accept Task (Spacebar)|Chapter 4-a]]</b></div></div>
@@ -171,6 +199,9 @@ Still, I had this uncomfortable feeling that I would be part of something that I
 “I will work on getting you all setup today, and we should be able to jump right in next week! Welcome to the team!” I would be lying if I said I wasn’t looking forward to starting on the project. This is what I loved. Working on complex data-mapping-I was excited to dive into the problem at hand, especially with the latest and greatest technology at my fingertips. As I got up to leave I was already thinking about how I  was going to train my data models. “Get excited,” Jason said. “You are working on some truly groundbreaking stuff!”
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_4_a.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 4-a-1]]</b></div>
 </div>
 </div>
@@ -183,6 +214,9 @@ Still, I had this uncomfortable feeling that I would be part of something that I
 Jason Shrugged and mentioned something about how it was going to happen anyways, but he didn’t directly answer my question, rhetorical as it was. I Thanked Jason and left the tiny meeting room. I felt alive yet defeated. Was this really the cost of doing what I thought was the right thing to do?
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_4_b.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 4-b-1]]</b></div>
 </div>
 </div>
@@ -199,6 +233,9 @@ Developing my neural network was no easy task, and required long days of collabo
 After missing our deadline by only a sprint, something quite rare for a project as large as Phren, Ashley Called me over to her desk, and the two of us walked over to one of the small meeting rooms. Once again, the sunlight was shining through the window. I moved my chair so the sun wasn’t in my eyes, casting Ashelys face into a shadow.
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_4_a_1.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 5-a]]</b></div>
 </div>
 </div>
@@ -209,6 +246,9 @@ After missing our deadline by only a sprint, something quite rare for a project 
 News of my refusal of the offer to join the <i>Phren</i> project spread like wildfire. People all over the company were sending me messages of support, but more than anything, curiosity. “Why did you refuse the project? What will happen to your career?  Do you think Ashely will fire you?” My actual work seemed small in the shadow of the <i>Phren</i> fiasco. 
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_4_b_1.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 4-b-2]]</b></div>
 </div>
 </div>
@@ -222,10 +262,199 @@ It all came to a head when <i>Phren</i> was launched 18 months later. There was 
 It was immediately clear that <i>Phren</i> was behind this. I was filled with so much anger. This is exactly what I was afraid of all those months ago. Without thinking further I wrote a blog article about my experience and published it.
 </p>
 <div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_4_b_2.mp3" type="audio/mpeg">
+</audio>
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 5-b]]</b></div>
 </div>
 </div>
 
 :: Chapter 5-a
+<div class="container">
+<h3>
+Chapter 5: Consequences
+</h3>
+<p>
+“I just want to begin by letting you know how proud of you we are.” Ashley was looking directly at me. I was pleasantly surprised. I hadn’t felt that I was going above and beyond at all, in fact, I felt that I was struggling to deliver a little. “Oh good, Jason’s here.” Jason sat down next to Ashely with an equally ecstatic look on his face. “We feel that you have really stepped up to the challenge presented by <i>Phren</i> Michelle and have been considering you for a promotion for some months now.” I could feel butterflies in my stomach. I had almost completely forgotten that the reason why I took on the <i>Phren</i> project to begin with was for a job promotion, and really-for a raise. It all seemed so long ago now. 
+</p>
+<p>
+“I accept!” I was ready for a promotion whether  I felt I deserved one or not. After all, if you aren’t going up you are going backward, as they say, and I knew that I wasn’t getting any younger and had to show I was still competitive. “That's amazing, we are so excited for you to start in your new role! We will make a company announcement tomorrow.”
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_5_a.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 5-a-1]]</b></div>
+</div>
+</div>
 
 :: Chapter 5-b
+<div class="container">
+<h3>
+Chapter 5: Consequences
+</h3>
+<p>
+The article was a hit. But this turned out to be not such a great thing for my career. While it gained thousands of views, both inside Epsilon Research and out, almost nothing happened within the company, although I did get a stern talking to from a human resources representative about the consequences associated with breaching my non-disclosure agreement, although I was never formally reprimanded. I had a feeling they did not want to make the issue large then it already was.
+</p>
+<p>
+I remained in my position, and did my best to fade into the woodwork as projects came and went around me, and I saw the faces of the company slowly change. I felt that I had settled into my little cog in the Epsilon Research-machine. My views on <i>Phren</i> however, continued to become ever stronger.
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_5_b.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 5-b-1]]</b></div>
+</div>
+</div>
+
+:: Chapter 5-a-1
+<div class="container">
+<p>
+When I got home I was still filled with energy, and decided to do some fancy cooking for a change, instead of the usual pasta, or bag of frozen dumplings. I  turned on the news on the kitchen radio. Yes; I still had one of those. I was pulling out the ingredients when I heard something unexpected. The word “Phren”. On the radio? How could that be? I immediately turned up the volume. The woman on the radio was emphasizing her words as if  gossip was being spread. 
+</p>
+<p>
+<i>“A scandal unfolded early this morning after a federal watchdog released a report accusing the Mark Miatus campaign of using a technology known as <i>Phren</i> to spread vast amounts of targeted messaging, some of which was labeled disinformation about Mark Miatus’ personal financial  history as well as falsehoods designed to smear political rivals. The watchdog has accused the campaign of using <i>Phren</i> to predict who would vote for which party and target them with misinformation via social media  in an attempt to sway their votes. This comes on the heels of polls indicating that 80% of voters made their voting decision based on information they viewed on social media. The report indicates that as many as half the voters polled were receiving mis-information from the Miatus campaign leading up to the election and likely aided in the campaign victory”</i>
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_5_a_1.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 5-a-2]]</b></div>
+</div>
+</div>
+
+:: Chapter 5-b-1
+<div class="container">
+<p>
+It reached a boiling point on a rainy December evening when I got a text from my nephew. All it said was: <i>can we talk</i>? I called them immediately. I was one of the few people in  the family that new my nephew was gay. My sister in law, whom I am not close with, would be far from understanding.
+</p>
+<p>
+He told me that my sister in law found out he was gay. She had started getting ads on social media and websites  for a company that specialized in therapy for parents with queer children. It started after he purchased some books with his credit card, and that his mom was kicking him out of the house. He wanted to stay with me.
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_5_b_1.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 5-b-2]]</b></div>
+</div>
+</div>
+
+:: Chapter 5-a-2
+<div class="container">
+<p>
+My stomach dropped, and the cup of flour I was holding slipped from my fingers spreading across the floor. <i>How could this happen? Is this my fault? I didn’t do anything illegal. I just made a really really good algorithm!</i> I slumped onto the couch. What I thought was my worst fear had come true, and I was implicated in it, in fact I had been a direct cause of it. I had even seen the ads, clearly targeted, but never had I considered that it would actually change anything, I just thought it would be a bigger continuation of the status quo.
+</p>
+<p>
+Days later I must have still been visibly upset because Ashely came over to my desk. We were now co-directors at this point. I straightened up, I still hadn’t gotten used to the idea that she was no longer my superior. “What’s up, you seem upset.” I sighed and mentioned the story with Phren, and how I felt  I was at fault. Ashley seemed to listen intently. “I totally get that. It was very jarring to me too. But all we did was give the industry  what it wants. They want better ads and that's what we gave to them. The rest is for the legal team.” She smiled. “I guess you’re right. This is exactly what they wanted and it is not illegal.” Ashey walked away and I began to feel better. Besides, at the end of the day this was about the director position, and it's added perks. Maybe I  could finally get the cottage I always wanted. That would be nice.
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_5_a_2.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 6-a]]</b></div>
+</div>
+</div>
+
+:: Chapter 5-b-2
+<div class="container">
+<p>
+Before he was even done asking I said yes. Although I knew something that my nephew did not. <i>Phren</i> was the only tool that could make such a prediction, and the company was surely using it. This was the last straw. Now, I was sure that <i>Phren</i> had crossed the line. My nephew was kicked out of his home because of something that Epsilon research built.
+</p>
+<p>
+I quit my job the next day with no plan. I should have made a plan. I was making no money and had to sell my car in order to make my mortgage payments on time. I lost my co-workers and my friends. I lost my professional network and was seen as a traitor. All because I stuck with my morals. <i>Was this really the cost of making ethical decisions?</i>
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_5_b_2.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 5-b-3]]</b></div>
+</div>
+</div>
+
+:: Chapter 5-b-3
+<div class="container">
+<p>
+After months of job searching I was about to give up. Maybe technology just was not for me. That is, until I saw an entry level position at the Policy Research at the Center of Humane Algorithms. I clicked on the posting, skimmed through it and applied. Less than an hour later I got an email back from the director of the research institute. As it turns out they had filled the entry level position but the director themself was looking to retire, and bring in someone new and felt that I could be a great fit. They had read my article. I came in for an interview the next day and was offered the job on the spot.
+</p>
+<p>
+I came in a week later for my first day, making about half as much money as I was at Epsilon, but with a new found passion. I was going to make sure what happened to my nephew would not happen to anyone else.
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_5_b_3.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 6-b]]</b></div>
+</div>
+</div>
+
+:: Chapter 6-a
+<div class="container">
+<h3>
+Chapter 6: Reckoning
+</h3>
+</div>
+
+:: Chapter 6-b
+<div class="container">
+<h3>
+Chapter 6: Reckoning
+</h3>
+<p>
+“To the members of the Subcommittee, thank you for inviting me to speak today. My name is Michelle Itani and I am the Director of Policy Research at the Center of Humane Algorithms.”
+</p>
+<p>
+Since I had been aware of the Phren project, I’ve been raising ethical concerns through external channels. It had been a lonely, thoroughly wretched period in my life. I think I was lost in a number of ways. Nevertheless, the journey allowed me to spend time among unfamiliar people, people who were less privileged than me, and witness their lives. I had become a somewhat different person. Who would have imagined that in three years after leaving Epsilon Research, I will be standing in front of the House being asked to provide insights on ways technology companies use algorithms to influence outcomes, and the appropriate policy responses needed.
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_6_b.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 6-b-1]]</b></div>
+</div>
+</div>
+
+:: Chapter 6-b-1
+<div class="container">
+<p>
+“The Federal Policy for the Protection of Human Subjects, Section 32.401(c) gives companies a number of exemptions from these ethical guidelines. Seemingly harmless data combined with other datasets can easily assemble evidence of private matters, such as serious medical issues or perhaps an affair. There are countless cases of individuals being reidentified by cross-referencing public domain anonymized data sets. The government needs to acknowledge this threat, and legislate against re-identification from anonymized or pseudonymized data.” In front of me, I see Mr. Chairman listened intently, resting his chin in his hands. 
+</p>
+<p>
+“We cannot know how data will be used in the future, or to be more precise, what other data they will be cross-referenced with. This means it is erroneous to effectively characterize data sets as public vs. private because the potential uses are unlimited, unforeseeable. We need to legitimately guard data as one of the pillars of societal infrastructure.”
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_6_b_1.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 6-b-2]]</b></div>
+</div>
+</div>
+
+:: Chapter 6-b-2
+<div class="container">
+<p>
+“Alright, thank you all,” said Mr. Chairman. “This was a very complicated subject but one I think your testimonial response have helped shed some light on, and certainly will shape our thinking in terms of how we proceed, but there’s definitely a lot of food for thought there. We’ll leave the hearing record open for a couple of weeks and we’ll ask senators if they have questions for the record to submit those, and we would ask all of you if you can to get those responses back as quickly as possible, so that we can include them in the final hearing record. We are adjourned.” 
+</p>
+<p>
+Mr. Chairman rose from his chair, lifted his gavel and <b>gave a final stroke.</b> 
+</p>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/c_6_b_2.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Continue|End]]</b></div>
+</div>
+</div>
+
+
+:: End
+<div class="container">
+<h3>
+End
+</h3>
+<div class="center">
+<audio class="audio-element" controls>
+  <source src="../audio/end_0.mp3" type="audio/mpeg">
+</audio>
+<div class="spacing-16" id="space-target"><b>[[Read Again|Start]]</b></div>
+</div>
+</div>

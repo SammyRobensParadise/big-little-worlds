@@ -26,3 +26,20 @@
 #ui-dialog-title {
   color: #fff;
 }
+
+.audio-element {
+  margin-bottom: 36px;
+}
+
+audio {
+  border-radius: 10px;
+}
+
+#mute-checkbox {
+  margin: 8px;
+}
+
+#mute-element {
+  float: right;
+  padding: 32px;
+}
