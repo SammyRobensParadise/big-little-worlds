@@ -9,6 +9,17 @@
   }
   document.getElementsByTagName('head')[0].appendChild(script)
 })()
+;(function () {
+  // Load the script
+  var script = document.createElement('SCRIPT')
+  script.src =
+    'https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js'
+  script.type = 'text/javascript'
+  script.onload = function () {
+    window.$ = window.jQuery
+  }
+  document.getElementsByTagName('head')[0].appendChild(script)
+})()
 
 function triggerSpaceNavigation() {
   const SPACE = 32
@@ -43,9 +54,21 @@ function handleReturnToBeginnings() {
     }
   })
 }
+var audioEnabledHandler = function () {
+  if (!settings.audioEnabled) {
+    new Wikifier(null, '<<stopallaudio>><<playlist stop>>')
+  }
+}
 
 $(document).ready(function () {
   triggerSpaceNavigation()
   triggerShiftNavigation()
   handleReturnToBeginnings()
+
+  Setting.addToggle('audioEnabled', {
+    label: 'Enable audio?',
+    default: true,
+    onInit: audioEnabledHandler,
+    onChange: audioEnabledHandler
+  })
 })

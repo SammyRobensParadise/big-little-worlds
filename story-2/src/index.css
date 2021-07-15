@@ -21,3 +21,8 @@
   background: rgba(238, 255, 0, 0.603);
   border-radius: 5px;
 }
+
+#ui-dialog-body,
+#ui-dialog-title {
+  color: #fff;
+}

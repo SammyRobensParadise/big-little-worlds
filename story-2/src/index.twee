@@ -9,6 +9,9 @@
 :: StoryTitle
 Little People Big Data
 
+:: StoryInit
+<<cacheaudio "c_1" "../audio/test.mp3">>
+
 :: Start
 <div class="center">
 ! Little People Big Data
@@ -20,6 +23,7 @@ Little People Big Data
 
 
 :: Chapter 1
+<<if settings.audioEnabled>><<audio "c_1" play>><</if>>
 <div class="container">
 <h3> 
 Chapter 1: Congratulations
