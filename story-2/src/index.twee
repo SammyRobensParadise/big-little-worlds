@@ -91,10 +91,10 @@ I give it some thought. “All I was looking for was more responsibility, but if
 Chapter 3: Phren
 </h3>
 <p>
-“And you said your thesis was about mapping raw data?” Jason rubs his chin with his palm like he’s checking out how well he shaved. I was sitting across from him in another one of tiney meeting rooms. It was the following afternoon, and the sun was shining through the large windows spreading light across the dust particles floating aimlessly around the room. “Automation of data integration using machine learning. It was meant to replace laborious manual construction of semantic mappings.” I could tell he didn’t <i>really</i> care.
+“And you said your thesis was about mapping raw data?” Jason rubs his chin with his palm like he’s checking out how well he shaved. I was sitting across from him in another one of the tiny meeting rooms. It was the following afternoon, and the sun was shining through the large windows spreading light across the dust particles floating aimlessly around the room. “Automation of data integration using machine learning. It was meant to replace laborious manual construction of semantic mappings.” I could tell he didn’t <i>really</i> care.
 </p>
 <p>
-“Interesting. I’d be down to talk about it more later if we have time. Anyways, our team would love to have you. Ashley told you’re one of the brightest researchers she has worked with. And you seem to have all the qualities and skill sets we were looking for.” 
+“Interesting. I’d be down to talk about it more later if we have time. Anyways, our team would love to have you. Ashley told me you’re one of the brightest researchers she has worked with. And you seem to have all the qualities and skill sets we were looking for.” 
 </p>
 <div class="center">
 <div class="spacing-16" id="space-target"><b>[[Continue|Chapter 3-1]]</b></div>
@@ -143,9 +143,9 @@ Jason had a point. If <i>Phren</i> was not collecting data from users, but only 
 Chapter 4: Decisions
 </h3>
 <p>
-I knew I had to make a decision. Jason was waiting for me, and Ashely was counting on me. Ashley was a good person, and so was Jason. I trusted them and I believe that they believe they are doing something cool. Phren is not illegal and people have already given up their data, Phren was just putting together the pieces! Besides, this was the opportunity I was looking for. Something to finally end my career stagnation. I knew I had to do <i>something</i> since if you weren’t moving up it was basically like you were moving backwards.</p>
+I knew I had to make a decision. Jason was waiting for me, and Ashely was counting on me. Ashley was a good person, and so was Jason. I trusted them and I believe that they believe they are doing something cool. <i>Phren</i> is not illegal and people have already given up their data, <i>Phren</i> was just putting together the pieces! Besides, this was the opportunity I was looking for. Something to finally end my career stagnation. I knew I had to do <i>something</i> since if you weren’t moving up it was basically like you were moving backward.</p>
 <p>
-Still, I had this uncomfortable feeling that I would be part of something that I shouldn’t be doing. I thought about an old joke I had heard. The punchline was something about how collecting data was like going through someone’s trash, but on the internet.
+Still, I had this uncomfortable feeling that I would be part of something that I shouldn’t be doing. I thought about an old joke I had heard. The punchline was something about how collecting data was like going through someone’s trash... but on the internet.
 </p>
 <div class="row">
 <div class="col-sm-6"><div class="center" id="enter-target"><b>[[Refuse to Perform the Task (Enter Key)|Chapter 4-b]]</b></div></div>
@@ -155,6 +155,51 @@ Still, I had this uncomfortable feeling that I would be part of something that I
 </div>
 
 :: Chapter 4-a
-
+<div class="container">
+<p>
+“I am super excited to start!”. Jason’s face lit up. While I was still a little uneasy, Jason seemed to have no qualms whatsoever, and I could almost see the gears in his brain begin to turn as they worked out the best gameplan. 
+</p>
+<p>
+“I will work on getting you all setup today, and we should be able to jump right in next week! Welcome to the team!” I would be lying if I said I wasn’t looking forward to starting on the project. This is what I loved. Working on complex data-mapping-I was excited to dive into the problem at hand, especially with the latest and greatest technology at my fingertips. As I got up to leave I was already thinking about how I  was going to train my data models. “Get excited,” Jason said. “You are working on some truly groundbreaking stuff!”
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 4-a-1]]</b></div>
+</div>
+</div>
 
 :: Chapter 4-b
+<div class="container">
+<p>
+“I am sorry. I can’t do it. Something about <i>Phren</i> doesn’t sit right with me. I know it’s not illegal and I know that it is the next step in predictive data analytics but it seems wrong to me. I feel like it could do some real damage if it was used incorrectly”. Jason looked shocked. “I’ve got to say I was not expecting that kind of answer. I don’t think anyone on the team has ever raised any of those concerns. We are only planning on offering it for advertising and commercial use.” I was aware of the use cases that <i>Phren</i> was targeting. “Everyone does advertising. Political campaigns, car companies, governments-everyone. Should everyone really be able to buy a prediction of someone’s behavior?”</p>
+<p>
+Jason Shrugged and mentioned something about how it was going to happen anyways, but he didn’t directly answer my question, rhetorical as it was. I Thanked Jason and left the tiny meeting room. I felt alive yet defeated. Was this really the cost of doing what I thought was the right thing to do?
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 4-b-1]]</b></div>
+</div>
+</div>
+
+:: Chapter 4-a-1
+
+:: Chapter 4-b-1
+<div class="container">
+<p>
+News of my refusal of the offer to join the <i>Phren</i> project spread like wildfire. People all over the company were sending me messages of support, but more than anything, curiosity. “Why did you refuse the project? What will happen to your career?  Do you think Ashely will fire you?” My actual work seemed small in the shadow of the <i>Phren</i> fiasco. 
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 4-b-2]]</b></div>
+</div>
+</div>
+
+:: Chapter 4-b-2
+<div class="container">
+<p>
+It all came to a head when <i>Phren</i> was launched 18 months later. There was little fanfare. One day the internet was suddenly louder than the last and the information bubble grew ever so slightly. Not a week after launch I was scrolling through my social media when I saw an advertisement for a political campaign that I was not so fond of, this ad, however, was mentioning some interesting narratives that I had not heard before. I had thought little of it until I saw a political ad for the same campaign while helping my mother with her social media accounts, but this one was shockingly different. In fact, it was almost the polar opposite to the narrative that I had seen on my social media.
+</p>
+<p>
+It was immediately clear that <i>Phren</i> was behind this. I was filled with so much anger. This is exactly what I was afraid of all those months ago. Without thinking further I wrote a blog article about my experience and published it.
+</p>
+<div class="center">
+<div class="spacing-16" id="space-target"><b>[[Continue|Chapter 4-b-2]]</b></div>
+</div>
+</div>
