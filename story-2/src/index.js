@@ -36,7 +36,6 @@ function triggerSpaceNavigation() {
 function triggerShiftNavigation() {
   const ENTER = 13
   $(window).keypress(function (e) {
-    console.log(e.keyCode)
     if (e.keyCode === ENTER) {
       var t = $('#enter-target').find('a')
       if (t.length) {
@@ -56,6 +55,7 @@ function handleReturnToBeginnings() {
 }
 
 function mountAudioHandler() {
+  window.mute = false
   var muteCheckbox = $(document.createElement('input')).attr('type', 'checkbox')
   muteCheckbox.attr('checked', false)
   muteCheckbox.attr('name', 'mute-checkbox')
@@ -69,15 +69,22 @@ function mountAudioHandler() {
   var muteElement = $(document.createElement('div')).attr('id', 'mute-element')
   muteElement.append(muteCheckbox)
   muteElement.append(muteCheckboxLabel)
-  $('div#passages').append(muteElement)
-  muteCheckbox.change(function (e) {
-    $(this).attr('checked', !$(this).attr('checked'))
-    var checked = !!$(this).attr('checked')
-    /***
-     * If checked then we mute audio
-     */
-    hideAudioHandler(checked)
+  $('div#story').append(muteElement)
+  muteCheckbox.change(function () {
+    handleCheckboxChange($(this))
   })
+}
+
+function handleCheckboxChange(target) {
+  target.attr('checked', !target.attr('checked'))
+  var checked = !!target.attr('checked')
+  window.mute = checked
+  $.notify(window.mute ? '🔇' : '🔊', 'info')
+
+  /***
+   * If checked then we mute audio
+   */
+  hideAudioHandler(checked)
 }
 
 function hideAudioHandler(state) {
@@ -92,6 +99,16 @@ function hideAudioHandler(state) {
     $('audio').show()
   }
 }
+
+/***
+ * handle audio when dom changes
+ */
+$('div#passages').bind('DOMSubtreeModified', function () {
+  if (window.mute === undefined) {
+    window.mute = false
+  }
+  hideAudioHandler(window.mute)
+})
 
 $(document).ready(function () {
   mountAudioHandler()
