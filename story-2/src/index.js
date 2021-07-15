@@ -30,8 +30,6 @@ function handleReturnToBeginnings() {
   })
 }
 
-function italicText(text) {}
-
 $(document).ready(function () {
   triggerSpaceNavigation()
   handleReturnToBeginnings()

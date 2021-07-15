@@ -112,6 +112,17 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 .spacing-16 {
   padding: 16px;
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: rgba(238, 255, 0, 0.603);
+  border-radius: 5px;
+}
+
+::selection {
+  background: rgba(238, 255, 0, 0.603);
+  border-radius: 5px;
+}
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">;(function () {
   // Load the script
   var script = document.createElement('SCRIPT')
@@ -144,8 +155,6 @@ function handleReturnToBeginnings() {
   })
 }
 
-function italicText(text) {}
-
 $(document).ready(function () {
   triggerSpaceNavigation()
   handleReturnToBeginnings()
@@ -158,7 +167,7 @@ $(document).ready(function () {
 &lt;/div&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Chapter 1" tags="" position="225,100" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;h3&gt; 
-Chapter 1
+Chapter 1: Congratulations
 &lt;/h3&gt;
 &lt;p&gt;
 “Michelle, I knew you could do it!” Balloons fill a room. I perked up and smiled. I don’t think I will ever get used to people using my name.
@@ -198,8 +207,8 @@ With a fresh cup of coffee in hand I run-walk  to one of the small meeting rooms
 &lt;/div&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="Chapter 2-3" tags="" position="600,100" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;p&gt;
-Then, a word I was unfamiliar with. “The Phren project?”, I ask. 
-“Yes, the Phren project. I heard from Jason from the Core team several months ago. They’re trying to scale our existing data integration software, and it seemed like they were short of AI research talent.”
+Then, a word I was unfamiliar with. “The &lt;i&gt;Phren&lt;/i&gt; project?”, I ask. 
+“Yes, the &lt;i&gt;Phren&lt;/i&gt; project. I heard from Jason from the Core team several months ago. They’re trying to scale our existing data integration software, and it seemed like they were short of AI research talent.”
 “How come I never heard about this project?”
 &lt;/p&gt;
 “Well, it’s under stealth mode for some reason, so not a lot of people are aware of what they’re exactly doing. All I know is that it has the potential to shift the digital infrastructure of the current economy. It’s one of those high-profile projects that board members put giant bets on. Looking at you for the past two years, I think this can be a great opportunity for you. They can use a brilliant, young talent like you instead of hiring someone else and go through the sacred onboarding process, and you’ll get to work on more intellectually challenging problems. If the project goes well, you might be as well on the career fastlane track. So, what do you think?”
@@ -212,7 +221,7 @@ I give it some thought. “All I was looking for was more responsibility, but if
 &lt;/div&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="Chapter 3" tags="" position="725,100" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;h3&gt;
-Chapter 3: Decisions
+Chapter 3: Phren
 &lt;/h3&gt;
 &lt;p&gt;
 “And you said your thesis was about mapping raw data?” Jason rubs his chin with his palm like he’s checking out how well he shaved. I was sitting across from him in another one of tiney meeting rooms. It was the following afternoon, and the sun was shining through the large windows spreading light across the dust particles floating aimlessly around the room. “Automation of data integration using machine learning. It was meant to replace laborious manual construction of semantic mappings.” I could tell he didn’t &lt;i&gt;really&lt;/i&gt; care.
@@ -225,10 +234,36 @@ Chapter 3: Decisions
 &lt;/div&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="Chapter 3-1" tags="" position="850,100" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;p&gt;
-Both hands resting on top of the table, Jason looks over at me. “In case you haven’t been tipped on Phren in detail, we are building a general intelligent system that will be able to string together data points from a broad range of sources. Travel records, social media posts, friends, associates, music playlists, reading habits, purchases, you name it.”
+Both hands resting on top of the table, Jason looks over at me. “In case you haven’t been tipped on &lt;i&gt;Phren&lt;/i&gt; in detail, we are building a general intelligent system that will be able to string together data points from a broad range of sources. Travel records, social media posts, friends, associates, music playlists, reading habits, purchases, you name it.”
 “All of that for what? Isn’t Google Ads and Facebook enough for the world to see more relevant ads?” I can’t help asking. 
-
 &lt;/p&gt;
+&lt;p&gt;Jason shows a sly look. “With the synthesized data stream, &lt;i&gt;Phren&lt;/i&gt; will intelligently predict an individual’s behavior when variables are tweaked. The end goal is to be able to put an individual in a virtual simulation to predict their future behavior when a new variable is introduced.” 
+“Predict? Like the “Precrime” squad from the film Minority Report?” “Sort of. But it’s not the three gifted humans seeing into the predetermined future. The difference is we simulate certain environments and merely observe the results. Based on that observation, our clients  can better decide what kind of action they should take in real life.” 
+&lt;/p&gt;
+&lt;div class=&quot;center&quot;&gt;
+&lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|Chapter 3-2]]&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="8" name="Chapter 3-2" tags="" position="975,100" size="100,100">&lt;div class=&quot;container&quot;&gt;
+&lt;p&gt; 
+I was confused. I had the feeling like Jason was seeing not real people, but only masses. “Is it even legal to pry all kinds of user data from their digital activity?” The confusion I was feeling must have worked its way into a frown because Jason responded in a  more terse tone.
+&lt;/p&gt;
+&lt;p&gt;
+“Look, Michelle. If you wish to fully conceal your personal data, you must opt out of modern society. Credit cards, mobile phones, emails, in-app behaviors, all of these already reveal personal information to companies and permit tracking. Users are willingly giving away their information to use a service for free. All we’re doing is refining the crude oil and producing the new diesel to fuel the next era of digital economy. Think about the potential if organizations can simulate multiple possible futures using our system and weigh off pros and cons before actually getting into the market? Think about the money they can save from optimized actions, the trial and errors they can reduce? This is a bill—no, a trillion dollar industry.”  
+&lt;/p&gt;
+&lt;div class=&quot;center&quot;&gt;
+&lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|Chapter 3-3]]&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="9" name="Chapter 3-3" tags="" position="1100,100" size="100,100">&lt;div class=&quot;container&quot;&gt;
+&lt;p&gt; 
+Jason had a point. If &lt;i&gt;Phren&lt;/i&gt; was not collecting data from users, but only deducing insights from available data, would there be any major ethical qualms? After all, privacy has now become a currency that people swap for convenience.&lt;/p&gt;
+&lt;div class=&quot;center&quot;&gt;
+&lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|Chapter 4]]&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="Chapter 4" tags="" position="1225,100" size="100,100">&lt;div class=&quot;container&quot;&gt;
+&lt;h3&gt;
+Chapter 3: Decisions
+&lt;/h3&gt;
+
 &lt;/div&gt;</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */

@@ -10,3 +10,14 @@
 .spacing-16 {
   padding: 16px;
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: rgba(238, 255, 0, 0.603);
+  border-radius: 5px;
+}
+
+::selection {
+  background: rgba(238, 255, 0, 0.603);
+  border-radius: 5px;
+}
