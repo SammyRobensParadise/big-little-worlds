@@ -36,7 +36,6 @@ function triggerSpaceNavigation() {
 function triggerShiftNavigation() {
   const ENTER = 13
   $(window).keypress(function (e) {
-    console.log(e.keyCode)
     if (e.keyCode === ENTER) {
       var t = $('#enter-target').find('a')
       if (t.length) {
@@ -54,21 +53,66 @@ function handleReturnToBeginnings() {
     }
   })
 }
-var audioEnabledHandler = function () {
-  if (!settings.audioEnabled) {
-    new Wikifier(null, '<<stopallaudio>><<playlist stop>>')
+
+function mountAudioHandler() {
+  window.mute = false
+  var muteCheckbox = $(document.createElement('input')).attr('type', 'checkbox')
+  muteCheckbox.attr('checked', false)
+  muteCheckbox.attr('name', 'mute-checkbox')
+  muteCheckbox.attr('id', 'mute-checkbox')
+  muteCheckbox.attr('value', false)
+  var muteCheckboxLabel = $(document.createElement('label')).attr(
+    'for',
+    'mute-checkbox'
+  )
+  muteCheckboxLabel.text('Mute Audio')
+  var muteElement = $(document.createElement('div')).attr('id', 'mute-element')
+  muteElement.append(muteCheckbox)
+  muteElement.append(muteCheckboxLabel)
+  $('div#story').append(muteElement)
+  muteCheckbox.change(function () {
+    handleCheckboxChange($(this))
+  })
+}
+
+function handleCheckboxChange(target) {
+  target.attr('checked', !target.attr('checked'))
+  var checked = !!target.attr('checked')
+  window.mute = checked
+  $.notify(window.mute ? '🔇' : '🔊', 'info')
+
+  /***
+   * If checked then we mute audio
+   */
+  hideAudioHandler(checked)
+}
+
+function hideAudioHandler(state) {
+  var audio = $('audio')
+  if (state) {
+    audio.each(function () {
+      this.pause()
+      this.currentTime = 0
+    })
+    audio.hide()
+  } else {
+    $('audio').show()
   }
 }
 
+/***
+ * handle audio when dom changes
+ */
+$('div#passages').bind('DOMSubtreeModified', function () {
+  if (window.mute === undefined) {
+    window.mute = false
+  }
+  hideAudioHandler(window.mute)
+})
+
 $(document).ready(function () {
+  mountAudioHandler()
   triggerSpaceNavigation()
   triggerShiftNavigation()
   handleReturnToBeginnings()
-
-  Setting.addToggle('audioEnabled', {
-    label: 'Enable audio?',
-    default: true,
-    onInit: audioEnabledHandler,
-    onChange: audioEnabledHandler
-  })
 })
