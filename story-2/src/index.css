@@ -30,3 +30,7 @@
 .audio-element {
   margin-bottom: 36px;
 }
+
+audio {
+  border-radius: 10px;
+}
