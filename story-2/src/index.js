@@ -54,21 +54,48 @@ function handleReturnToBeginnings() {
     }
   })
 }
-var audioEnabledHandler = function () {
-  if (!settings.audioEnabled) {
-    new Wikifier(null, '<<stopallaudio>><<playlist stop>>')
+
+function mountAudioHandler() {
+  var muteCheckbox = $(document.createElement('input')).attr('type', 'checkbox')
+  muteCheckbox.attr('checked', false)
+  muteCheckbox.attr('name', 'mute-checkbox')
+  muteCheckbox.attr('id', 'mute-checkbox')
+  muteCheckbox.attr('value', false)
+  var muteCheckboxLabel = $(document.createElement('label')).attr(
+    'for',
+    'mute-checkbox'
+  )
+  muteCheckboxLabel.text('Mute Audio')
+  var muteElement = $(document.createElement('div')).attr('id', 'mute-element')
+  muteElement.append(muteCheckbox)
+  muteElement.append(muteCheckboxLabel)
+  $('div#passages').append(muteElement)
+  muteCheckbox.change(function (e) {
+    $(this).attr('checked', !$(this).attr('checked'))
+    var checked = !!$(this).attr('checked')
+    /***
+     * If checked then we mute audio
+     */
+    hideAudioHandler(checked)
+  })
+}
+
+function hideAudioHandler(state) {
+  var audio = $('audio')
+  if (state) {
+    audio.each(function () {
+      this.pause()
+      this.currentTime = 0
+    })
+    audio.hide()
+  } else {
+    $('audio').show()
   }
 }
 
 $(document).ready(function () {
+  mountAudioHandler()
   triggerSpaceNavigation()
   triggerShiftNavigation()
   handleReturnToBeginnings()
-
-  Setting.addToggle('audioEnabled', {
-    label: 'Enable audio?',
-    default: true,
-    onInit: audioEnabledHandler,
-    onChange: audioEnabledHandler
-  })
 })

@@ -184,32 +184,58 @@ function handleReturnToBeginnings() {
     }
   })
 }
-var audioEnabledHandler = function () {
-  if (!settings.audioEnabled) {
-    new Wikifier(null, '<<stopallaudio>><<playlist stop>>')
+
+function mountAudioHandler() {
+  var muteCheckbox = $(document.createElement('input')).attr('type', 'checkbox')
+  muteCheckbox.attr('checked', false)
+  muteCheckbox.attr('name', 'mute-checkbox')
+  muteCheckbox.attr('id', 'mute-checkbox')
+  muteCheckbox.attr('value', false)
+  var muteCheckboxLabel = $(document.createElement('label')).attr(
+    'for',
+    'mute-checkbox'
+  )
+  muteCheckboxLabel.text('Mute Audio')
+  var muteElement = $(document.createElement('div')).attr('id', 'mute-element')
+  muteElement.append(muteCheckbox)
+  muteElement.append(muteCheckboxLabel)
+  $('div#passages').append(muteElement)
+  muteCheckbox.change(function (e) {
+    $(this).attr('checked', !$(this).attr('checked'))
+    var checked = !!$(this).attr('checked')
+    /***
+     * If checked then we mute audio
+     */
+    hideAudioHandler(checked)
+  })
+}
+
+function hideAudioHandler(state) {
+  var audio = $('audio')
+  if (state) {
+    audio.each(function () {
+      this.pause()
+      this.currentTime = 0
+    })
+    audio.hide()
+  } else {
+    $('audio').show()
   }
 }
 
 $(document).ready(function () {
+  mountAudioHandler()
   triggerSpaceNavigation()
   triggerShiftNavigation()
   handleReturnToBeginnings()
-
-  Setting.addToggle('audioEnabled', {
-    label: 'Enable audio?',
-    default: true,
-    onInit: audioEnabledHandler,
-    onChange: audioEnabledHandler
-  })
 })
-</script><tw-passagedata pid="1" name="StoryInit" tags="" position="100,100" size="100,100">&lt;&lt;cacheaudio &quot;c_1&quot; &quot;../audio/test.mp3&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="225,100" size="100,100">&lt;div class=&quot;center&quot;&gt;
+</script><tw-passagedata pid="1" name="StoryInit" tags="" position="100,100" size="100,100"></tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="225,100" size="100,100">&lt;div class=&quot;center&quot;&gt;
 ! Little People Big Data
 &lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Begin Story|Chapter 1]]&lt;/b&gt;&lt;/div&gt;
 &lt;div class=&quot;container&quot;&gt;
 &lt;div class=&quot;spacing-16&quot;&gt;You can press the &lt;code&gt;spacebar&lt;/code&gt; at any point in the story to continue&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Chapter 1" tags="" position="350,100" size="100,100">&lt;&lt;if settings.audioEnabled&gt;&gt;&lt;&lt;audio &quot;c_1&quot; play&gt;&gt;&lt;&lt;/if&gt;&gt;
-&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Chapter 1" tags="" position="350,100" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;h3&gt; 
 Chapter 1: Congratulations
 &lt;/h3&gt;
@@ -222,6 +248,9 @@ I am proud of them too, and excited to start the next chapter after school.
 &lt;div class=&quot;center&quot;&gt;
 &lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|Chapter 2]]&lt;/b&gt;&lt;/div&gt;
 &lt;/div&gt;
+&lt;audio class=&quot;audio-element&quot; controls&gt;
+  &lt;source src=&quot;../audio/test.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+&lt;/audio&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="Chapter 2" tags="" position="475,100" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;h3&gt;
 Chapter 2: Stagnation
