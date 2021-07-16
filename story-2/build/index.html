@@ -129,6 +129,11 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
   color: #fff;
 }
 
+#ui-dialog-body > button {
+  background-color: #281ec5;
+  border-radius: 10px;
+}
+
 .audio-element {
   margin-bottom: 36px;
 }
@@ -144,6 +149,12 @@ audio {
 #mute-element {
   float: right;
   padding: 32px;
+}
+
+#toggle-tip {
+  float: right;
+  padding: 36px;
+  color: #adadad;
 }
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">/* global $ */
 
@@ -209,7 +220,7 @@ function mountAudioHandler() {
     'for',
     'mute-checkbox'
   )
-  muteCheckboxLabel.text('Mute Audio')
+  muteCheckboxLabel.text('Mute Audio (M key)')
   var muteElement = $(document.createElement('div')).attr('id', 'mute-element')
   muteElement.append(muteCheckbox)
   muteElement.append(muteCheckboxLabel)
@@ -217,6 +228,13 @@ function mountAudioHandler() {
   muteCheckbox.change(function () {
     handleCheckboxChange($(this))
   })
+}
+
+function mountAudioToggleTip() {
+  var toggleTip = $(document.createElement('p'))
+  toggleTip.attr('id', 'toggle-tip')
+  toggleTip.text('Hint: You can use the P key to play/pause audio')
+  $('div#story').append(toggleTip)
 }
 
 /**
@@ -275,11 +293,29 @@ function muteAudio() {
   })
 }
 
+function toggleAudio() {
+  const P = 'p'
+  $(window).keypress(function (e) {
+    if (e.key === P) {
+      var audio = $('audio')
+      audio.each(function () {
+        if (!this.paused) {
+          this.pause()
+        } else {
+          this.play()
+        }
+      })
+    }
+  })
+}
+
 $(document).ready(function () {
   mountAudioHandler()
+  mountAudioToggleTip()
   triggerSpaceNavigation()
   triggerShiftNavigation()
   muteAudio()
+  toggleAudio()
 })
 </script><tw-passagedata pid="1" name="StoryInit" tags="" position="100,100" size="100,100"></tw-passagedata><tw-passagedata pid="2" name="Start" tags="" position="225,100" size="100,100">&lt;div class=&quot;center&quot;&gt;
 ! Little People Big Data
@@ -288,7 +324,7 @@ $(document).ready(function () {
 &lt;audio class=&quot;audio-element&quot; controls&gt;
   &lt;source src=&quot;../audio/start_0.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
-&lt;div class=&quot;spacing-16&quot;&gt;You can press the &lt;code&gt;spacebar&lt;/code&gt; at any point in the story to continue, or &lt;code&gt;m&lt;/code&gt; to mute audio&lt;/div&gt;
+&lt;div class=&quot;spacing-16&quot;&gt;You can press the &lt;code&gt;Spacebar&lt;/code&gt; at any point in the story to continue, or &lt;code&gt;M&lt;/code&gt; to mute audio&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Chapter 1" tags="" position="350,100" size="100,100">&lt;div class=&quot;container&quot;&gt;

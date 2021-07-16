@@ -27,6 +27,11 @@
   color: #fff;
 }
 
+#ui-dialog-body > button {
+  background-color: #281ec5;
+  border-radius: 10px;
+}
+
 .audio-element {
   margin-bottom: 36px;
 }
@@ -42,4 +47,10 @@ audio {
 #mute-element {
   float: right;
   padding: 32px;
+}
+
+#toggle-tip {
+  float: right;
+  padding: 36px;
+  color: #adadad;
 }
