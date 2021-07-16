@@ -62,7 +62,7 @@ function mountAudioHandler() {
     'for',
     'mute-checkbox'
   )
-  muteCheckboxLabel.text('Mute Audio')
+  muteCheckboxLabel.text('Mute Audio (M key)')
   var muteElement = $(document.createElement('div')).attr('id', 'mute-element')
   muteElement.append(muteCheckbox)
   muteElement.append(muteCheckboxLabel)
@@ -70,6 +70,13 @@ function mountAudioHandler() {
   muteCheckbox.change(function () {
     handleCheckboxChange($(this))
   })
+}
+
+function mountAudioToggleTip() {
+  var toggleTip = $(document.createElement('p'))
+  toggleTip.attr('id', 'toggle-tip')
+  toggleTip.text('Hint: You can use the P key to play/pause audio')
+  $('div#story').append(toggleTip)
 }
 
 /**
@@ -128,9 +135,27 @@ function muteAudio() {
   })
 }
 
+function toggleAudio() {
+  const P = 'p'
+  $(window).keypress(function (e) {
+    if (e.key === P) {
+      var audio = $('audio')
+      audio.each(function () {
+        if (!this.paused) {
+          this.pause()
+        } else {
+          this.play()
+        }
+      })
+    }
+  })
+}
+
 $(document).ready(function () {
   mountAudioHandler()
+  mountAudioToggleTip()
   triggerSpaceNavigation()
   triggerShiftNavigation()
   muteAudio()
+  toggleAudio()
 })

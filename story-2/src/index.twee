@@ -19,7 +19,7 @@ Little People Big Data
 <audio class="audio-element" controls>
   <source src="../audio/start_0.mp3" type="audio/mpeg">
 </audio>
-<div class="spacing-16">You can press the <code>spacebar</code> at any point in the story to continue, or <code>m</code> to mute audio</div>
+<div class="spacing-16">You can press the <code>Spacebar</code> at any point in the story to continue, or <code>M</code> to mute audio</div>
 </div>
 
 </div>
