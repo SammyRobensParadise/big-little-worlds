@@ -1,4 +1,6 @@
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url('http://fonts.cdnfonts.com/css/georgia');
+
 #story {
   font-family: Georgia;
   color: #131313;
