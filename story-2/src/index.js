@@ -139,14 +139,23 @@ function toggleAudio() {
   const P = 'p'
   $(window).keypress(function (e) {
     if (e.key === P) {
-      var audio = $('audio')
-      audio.each(function () {
-        if (!this.paused) {
-          this.pause()
+      if (!window.mute) {
+        var audio = $('audio')
+        audio.each(function () {
+          if (!this.paused) {
+            this.pause()
+          } else {
+            this.play()
+          }
+        })
+      } else {
+        console.log($.notify)
+        if ($.notify) {
+          $.notify("Audio disabled. Press 'M' to unmute", 'info')
         } else {
-          this.play()
+          alert("Audio disabled. Press 'M' to unmute")
         }
-      })
+      }
     }
   })
 }

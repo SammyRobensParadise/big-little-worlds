@@ -156,6 +156,27 @@ audio {
   padding: 36px;
   color: #adadad;
 }
+#restart-ok,
+#restart-cancel,
+button.save,
+button.delete {
+  background-color: #252525;
+  border-radius: 10px;
+  border: 0.5px solid rgb(238, 238, 238);
+}
+
+#ui-bar {
+  font-family: Georgia;
+}
+
+.link-internal {
+  color: #131313;
+  transition: all 0.5s;
+}
+.link-internal:hover {
+  color: #131313;
+  letter-spacing: 3px;
+}
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">/* global $ */
 
 // eslint-disable-next-line no-extra-semi
@@ -297,14 +318,23 @@ function toggleAudio() {
   const P = 'p'
   $(window).keypress(function (e) {
     if (e.key === P) {
-      var audio = $('audio')
-      audio.each(function () {
-        if (!this.paused) {
-          this.pause()
+      if (!window.mute) {
+        var audio = $('audio')
+        audio.each(function () {
+          if (!this.paused) {
+            this.pause()
+          } else {
+            this.play()
+          }
+        })
+      } else {
+        console.log($.notify)
+        if ($.notify) {
+          $.notify("Audio disabled. Press 'M' to unmute", 'info')
         } else {
-          this.play()
+          alert("Audio disabled. Press 'M' to unmute")
         }
-      })
+      }
     }
   })
 }
@@ -630,7 +660,32 @@ I came in a week later for my first day, making about half as much money as I wa
 &lt;h3&gt;
 Chapter 6: Reckoning
 &lt;/h3&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="25" name="Chapter 6-b" tags="" position="600,350" size="100,100">&lt;div class=&quot;container&quot;&gt;
+&lt;p&gt;
+It was several months after I got the promotion that, on November 5, I began to realize I do not have full control of my very own privacy; it was common to see people inadvertently making privacy decisions that affect others. Calendar invitation, automated photo tagging in social posts, email recipients…  A large portion of data was related to multiple people, not just the one who created the data.
+&lt;/p&gt;
+&lt;p&gt;
+ And I, whom I thought was a tech-savvy millennial, familiar with computer security practices such as VPNs, was not free from Phren’s reach. I had started to see a therapist regularly since I got the promotion because I was plagued by deep anxiety, occasional self-hatred, and of course, imposter syndrome. One day, I noticed that Twine, the most popular social network service in the area, recommended some senior citizens to add them as friends. An 80-year-old looking gentleman in a wheelchair, a 60-year-old looking lady with a walker, and so on. ‘That’s eerie’, I thought. I didn’t know any of them and neither did we have mutual connections. I brought this story up in my therapy session, and my therapist, Lori, was bewildered when I listed the names I remembered from my “People You May Know” list.
+&lt;/p&gt;
+&lt;div class=&quot;center&quot;&gt;
+&lt;audio class=&quot;audio-element&quot; controls&gt;
+  &lt;source src=&quot;../audio/c_6_a.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+&lt;/audio&gt;
+&lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|Chapter 6-a-1]]&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="25" name="Chapter 6-a-1" tags="" position="600,350" size="100,100">&lt;div class=&quot;container&quot;&gt;
+&lt;p&gt;
+It turned out that the senior citizens were also my therapist’s patients. Twine made Lori violate her duty to protect her patient’s privacy. We sat there awkwardly and silently for a while. This was a serious issue because her patients included suicide survivors and people trying to escape violent relationsihps. 
+&lt;/p&gt;
+&lt;p&gt;
+The most likely explanation was that the social network service was using location data to recommend friends. If she and her patients were all in the same place, repeatedly, the algorithm suggested her patients befriend one another. Or it could be because the patients had Lori’s phone number in their phones, hence the algorithm reasonably assuming that all these people are connected somehow. Would Phren be partly contributing to this recommendation? I don’t know. But sure enough, Twine is one of Epsilon Research’s most profitable clients. In my next appointment, Lori had a poster up in her office to leave their phones in their cars during appointments. Not likely good advice, I thought, to prevent being mined by companies. I felt like I owe an apology to Lori.
+&lt;/p&gt;
+&lt;div class=&quot;center&quot;&gt;
+&lt;audio class=&quot;audio-element&quot; controls&gt;
+  &lt;source src=&quot;../audio/c_6_a_1.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
+&lt;/audio&gt;
+&lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|Chapter 6-a-1]]&lt;/b&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="Chapter 6-b" tags="" position="725,350" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;h3&gt;
 Chapter 6: Reckoning
 &lt;/h3&gt;
@@ -646,7 +701,7 @@ Since I had been aware of the Phren project, I’ve been raising ethical concern
 &lt;/audio&gt;
 &lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|Chapter 6-b-1]]&lt;/b&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="Chapter 6-b-1" tags="" position="725,350" size="100,100">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="27" name="Chapter 6-b-1" tags="" position="850,350" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;p&gt;
 “The Federal Policy for the Protection of Human Subjects, Section 32.401(c) gives companies a number of exemptions from these ethical guidelines. Seemingly harmless data combined with other datasets can easily assemble evidence of private matters, such as serious medical issues or perhaps an affair. There are countless cases of individuals being reidentified by cross-referencing public domain anonymized data sets. The government needs to acknowledge this threat, and legislate against re-identification from anonymized or pseudonymized data.” In front of me, I see Mr. Chairman listened intently, resting his chin in his hands. 
 &lt;/p&gt;
@@ -657,9 +712,9 @@ Since I had been aware of the Phren project, I’ve been raising ethical concern
 &lt;audio class=&quot;audio-element&quot; controls&gt;
   &lt;source src=&quot;../audio/c_6_b_1.mp3&quot; type=&quot;audio/mpeg&quot;&gt;
 &lt;/audio&gt;
-&lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|Chapter 6-b-2]]&lt;/b&gt;&lt;/div&gt;
+&lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|End]]&lt;/b&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="27" name="Chapter 6-b-2" tags="" position="850,350" size="100,100">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="Chapter 6-b-2" tags="" position="975,350" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;p&gt;
 “Alright, thank you all,” said Mr. Chairman. “This was a very complicated subject but one I think your testimonial response have helped shed some light on, and certainly will shape our thinking in terms of how we proceed, but there’s definitely a lot of food for thought there. We’ll leave the hearing record open for a couple of weeks and we’ll ask senators if they have questions for the record to submit those, and we would ask all of you if you can to get those responses back as quickly as possible, so that we can include them in the final hearing record. We are adjourned.” 
 &lt;/p&gt;
@@ -672,7 +727,7 @@ Mr. Chairman rose from his chair, lifted his gavel and &lt;b&gt;gave a final str
 &lt;/audio&gt;
 &lt;div class=&quot;spacing-16&quot; id=&quot;space-target&quot;&gt;&lt;b&gt;[[Continue|End]]&lt;/b&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="End" tags="" position="975,350" size="100,100">&lt;div class=&quot;container&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="29" name="End" tags="" position="1100,350" size="100,100">&lt;div class=&quot;container&quot;&gt;
 &lt;h3&gt;
 End
 &lt;/h3&gt;
