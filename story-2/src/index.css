@@ -54,3 +54,24 @@ audio {
   padding: 36px;
   color: #adadad;
 }
+#restart-ok,
+#restart-cancel,
+button.save,
+button.delete {
+  background-color: #252525;
+  border-radius: 10px;
+  border: 0.5px solid rgb(238, 238, 238);
+}
+
+#ui-bar {
+  font-family: Georgia;
+}
+
+.link-internal {
+  color: #131313;
+  transition: all 0.5s;
+}
+.link-internal:hover {
+  color: #131313;
+  letter-spacing: 3px;
+}
